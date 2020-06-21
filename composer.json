@@ -1,0 +1,36 @@
+{
+    "name": "applinkio/delivery-sdk-php",
+    "description": "AppLink.io Delivery SDK for PHP",
+    "keywords": [
+        "delivery",
+        "content-delivery",
+        "headless",
+        "cms",
+        "applink.io", 
+        "headless-cms"
+    ],
+    "homepage": "https://applink.io/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AppLink.io",
+            "email": "contact@applink.io"
+        },
+        {
+            "name": "Adam Hass",
+            "email": "ahass@applink.io"
+        }
+    ],
+    "type": "library",
+    "require": {
+        "php" : ">=5.5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "AppLinkIO\\Delivery\\": "src/"
+        }
+    }
+}
